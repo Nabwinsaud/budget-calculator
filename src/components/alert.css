@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alert {
+  width: fit-content;
+  /* height: 20px; */
+  border-radius: 6px;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 4px 14px;
+  font-weight: 600;
+  /* font-weight: 600; */
+  /* color: #000000; */
+}
+
+.alert-reject {
+  background-color: rgb(28, 188, 241);
+}
+
+.alert-success {
+  background: rgb(57, 158, 11);
+  color: #fefe;
+}

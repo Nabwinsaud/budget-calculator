@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px;
+  margin: 6px 0;
+  /* border: none; */
+}
+input:focus {
+  border: 1px solid rgb(11, 113, 230);
+  outline: none;
+}
+
+.add-items {
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  background-color: rgb(16, 112, 238);
+  border-radius: 4px;
+  color: #fefefe;
+  margin: 10px 0;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+.add-items:hover {
+  transform: scale(1.1);
+  background-color: rgb(0, 149, 255);
+  cursor: pointer;
+}

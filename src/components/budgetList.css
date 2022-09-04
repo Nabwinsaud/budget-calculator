@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete:hover,
+.edit:hover {
+  cursor: pointer;
+  color: rgb(220, 20, 146);
+  transition: 0.3s color;
+}

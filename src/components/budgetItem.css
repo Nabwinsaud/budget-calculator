@@ -1,0 +1,28 @@
+li {
+  margin-top: 20px;
+  width: 100%;
+  /* border: 1px solid lightseagreen; */
+  background-color: lightblue;
+  box-shadow: 0 0 10px -7px rgba(0, 0, 0, 0.4);
+  list-style: none;
+  font-weight: 600;
+  color: #000;
+  margin: 8px 0;
+  padding: 8px;
+  text-transform: capitalize;
+  transition: 0.3s transform;
+}
+
+.remarks {
+  font-weight: 500;
+}
+.price {
+  font-weight: 600;
+}
+li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+}
